@@ -15,7 +15,7 @@ const Form = () => {
         <Input src="/images/User.svg" alt="Name" title="Name" placeholder="Enter Your Name" />
         <Input src="/images/Email.svg" alt="Email" title="Email Address" placeholder="Enter Your Email Address" />
         <Input src="/images/Phone.svg" alt="Phone" title="Contact Number" placeholder="Enter Your Contact Number" />
-        <Button text="Submit" variant="solid" size="large" />
+        <Button text="Submit" size="large" />
       </div>
     </section>
   );

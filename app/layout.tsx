@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Aphex Pharma Solutions",
-  description: "Pharmaceutical Quality, CMC and CMC Regulatory Services",
+  title: "Victoria's Turks",
+  description: "Connecting the Turkish Community across Victoria",
 };
 
 export default function RootLayout({

@@ -24,7 +24,7 @@ export default function RootLayout({
       <body
         className={`${inter.className}  w-full h-full flex flex-col justify-center items-center`}
       >
-        <div className="container mx-auto py-3 px-4">
+        <div className="container mx-auto py-3 px-20">
           <Navbar />
           {children}
           <Footer />

@@ -10,7 +10,7 @@ const Form = () => {
         Volunteer, donate, or join our programs to help us grow a stronger
         community.
       </p>
-      <div className="flex gap-5 items-end">
+      <div className="flex flex-col lg:flex-row gap-5">
         <Input src="/assets/User.svg" alt="Name" title="Name" placeholder="Enter Your Name" />
         <Input src="/assets/Email.svg" alt="Email" title="Email Address" placeholder="Enter Your Email Address" />
         <Input src="/assets/Phone.svg" alt="Phone" title="Contact Number" placeholder="Enter Your Contact Number" />

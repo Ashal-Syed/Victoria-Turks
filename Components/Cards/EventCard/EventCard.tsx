@@ -12,12 +12,12 @@ interface EventCardProps {
 
 const EventCard = ({src, alt, title, description, buttonText}: EventCardProps) => {
   return (
-    <div data-label="Card+Photo "className="w-[500px] h-[192px] flex justify-end relative">
-      <div data-label="Photo Holder" className="absolute bottom-0 left-0 w-[192px] h-[192px] z-10 flex items-end">
+    <div data-label="Card+Photo "className="w-[300px] md:w-[500px] h-[192px] flex justify-end relative">
+      <div data-label="Photo Holder" className="hidden absolute bottom-0 left-0 md:left-0 w-[120px] h-[120px] md:w-[192px] md:h-[192px] z-10 md:flex items-end">
         <Image src={src} alt={alt} height={192} width={192} />
       </div>
-      <div data-label="Card" className="event-card">
-        <div data-label="Content" className="w-3/5 h-full flex flex-col items-start justify-between gap-1">
+      <div data-label="Card" className="event-card ">
+        <div data-label="Content" className="w-full md:w-3/5 h-full flex flex-col items-start justify-between gap-1">
           <div data-label="Text" className="w-full flex flex-col items-start gap-1">
             <h1 className="text-white font-semibold text-lg">
               {title}

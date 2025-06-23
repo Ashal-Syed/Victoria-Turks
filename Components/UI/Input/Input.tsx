@@ -10,7 +10,7 @@ interface InputProps {
 
 const Input = ({src, alt, title, placeholder} : InputProps) => {
   return (
-    <div data-label="Field" className="w-1/4 flex flex-col gap-4">
+    <div data-label="Field" className="w-full flex flex-col gap-4">
       <div data-label="Content" className="flex items-end gap-2 px-1">
         <Image src={src} alt={alt} height={20} width={20} />
         <h1 className="text-neutral-600 text-sm">{title}</h1>

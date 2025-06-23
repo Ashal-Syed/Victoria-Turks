@@ -4,9 +4,9 @@ import { EventsData } from "./EventsData";
 
 const Events = () => {
   return (
-    <section id="events" className="h-full w-full flex flex-col justify-center items-center gap-10 py-10 px-10">
+    <section id="events" className="h-full w-full flex flex-col justify-center items-center gap-10">
       <h1 className="heading-text font-semibold text-4xl">Upcoming Events</h1>
-      <p className="px-70 text-center text-neutral-500">
+      <p className="px-50 text-center text-neutral-500 leading-loose">
         Our events bring the community together to celebrate culture, share
         knowledge, and build connections. From cultural festivals to educational
         workshops and wellbeing seminars, each gathering is an opportunity to

@@ -6,7 +6,7 @@ import Form from "@/Components/Sections/Form/Form";
 
 export default function Home() {
   return (
-      <main className="flex flex-col gap-10">
+      <main className="flex flex-col gap-12">
         <Hero />
         <About />
         <Services />

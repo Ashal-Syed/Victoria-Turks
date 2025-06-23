@@ -25,7 +25,7 @@ const About = () => {
           />
         </div>
         <div data-label="Right" className=" w-2/3 h-full flex flex-col justify-center px-5 gap-4">
-          <p className="text-neutral-600 font-light leading-loose">
+          <p className="p-text">
             Victoria’s Turks is a community organisation committed to preserving
             and promoting the rich cultural heritage of Turkish Australians
             living in Victoria. We aim to foster a strong sense of identity,

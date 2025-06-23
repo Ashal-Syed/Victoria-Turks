@@ -13,7 +13,7 @@ interface EventCardProps {
 const EventCard = ({src, alt, title, description, buttonText}: EventCardProps) => {
   return (
     <div data-label="Card+Photo "className="w-[500px] h-[192px] flex justify-end relative">
-      <div data-label="Photo Holder" className="absolute bottom-0 left-0 w-[192px] h-[192px] z-10 flex items-end mb-0.5">
+      <div data-label="Photo Holder" className="absolute bottom-0 left-0 w-[192px] h-[192px] z-10 flex items-end">
         <Image src={src} alt={alt} height={192} width={192} />
       </div>
       <div data-label="Card" className="event-card">

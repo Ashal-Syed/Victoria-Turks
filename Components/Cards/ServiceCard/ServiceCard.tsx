@@ -13,7 +13,7 @@ const ServiceCard = ({src, alt, heading, text}: ServiceCardProps) => {
   return (
      <div
                 data-label="Card"
-                className="small-card h-full"
+                className="small-card"
               >
                 <div className="h-[50px] w-[50px] bg-red-50 rounded-lg flex items-center justify-center">
                   <Image

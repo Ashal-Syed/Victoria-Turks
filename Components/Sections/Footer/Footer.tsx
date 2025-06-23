@@ -4,10 +4,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div data-label="Footer Section" className="h-full flex flex-col md:flex-row items-center justify-between pb-4 md:pb-0">
+    <div data-label="Footer Section" className="h-full flex flex-col md:flex-row items-center gap-1 md:justify-between py-4 md:py-10">
       <div
         data-label="Logo"
-        className="h-full flex justify-between items-center py-10 "
+        className="h-full flex justify-between items-center "
       >
         <Link
           href="#hero"
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </Link>
       </div>
-      <div data-label="Right" className="flex flex-col items-center justify-center">
+      <div data-label="Right" className="flex flex-col items-center justify-center gap-4">
         <div data-label="Social Media Icons" className="h-[20px] lg:h-[50px] lg:w-full flex relative lg:gap-2 justify-center">
           <Image
             src="/icons/Facebook.svg"
@@ -52,11 +52,11 @@ const Footer = () => {
           />
         </div>
         <div data-label="Webifex" className="flex gap-0.5">
-          <p className="text-neutral-400 text-[6px] md:text-xs">
+          <p className="text-neutral-400 text-xs">
             Website Designed and Maintained by
           </p>
           <Link
-            className="text-green-600 text-[6px] md:text-xs"
+            className="text-green-600 text-xs"
             href="https://www.webifex.io"
           >
             Webifex

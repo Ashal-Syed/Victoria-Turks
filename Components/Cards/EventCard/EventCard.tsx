@@ -17,7 +17,7 @@ const EventCard = ({src, alt, title, description, buttonText}: EventCardProps) =
         <Image src={src} alt={alt} height={192} width={192} />
       </div>
       <div data-label="Card" className="event-card ">
-        <div data-label="Content" className="w-full md:w-3/5 h-full flex flex-col items-start justify-between gap-1">
+        <div data-label="Content" className="w-full md:w-3/5 h-full flex flex-col items-start justify-between gap-1 py-5">
           <div data-label="Text" className="w-full flex flex-col items-start gap-1">
             <h1 className="text-white font-semibold text-lg">
               {title}
